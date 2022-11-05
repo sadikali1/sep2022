@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="MyTestNG">
+
+	<!-- <test name="Test1">
+		<classes>
+			<class name="com.testng.Example" />
+			<class name="com.testng.AttributeExample" />
+			<class name="com.testng.TestNgExample2" />
+		</classes>
+	</test>-->
+
+	<test name="Test2">
+		<parameter name="user" value="User1" />
+		<parameter name="password" value="Password1" />
+		<classes>
+			<class name="com.testng.ParamTest" />
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="Test3">
+		<parameter name="user" value="User2" />
+		<parameter name="password" value="Password2" />
+		<classes>
+			<class name="com.testng.ParamTest" />
+		</classes>
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->
