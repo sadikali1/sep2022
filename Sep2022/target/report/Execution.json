@@ -1,0 +1,1634 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-05T19:21:40.052Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1999700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify user login successfully",
+        "description": "",
+        "id": "orange-hrl-application-login;verify-user-login-successfully",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8018867700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I navigated url on browser",
+            "match": {
+              "location": "com.steps.Steps.i_navigated_url_on_browser()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 731598300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I enter user name into user input field",
+            "match": {
+              "location": "com.steps.Steps.i_enter_user_name_into_user_input_field()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64449100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1001000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I enter password in password filed",
+            "match": {
+              "location": "com.steps.Steps.i_enter_password_in_password_filed()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49069000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I click on login button",
+            "match": {
+              "location": "com.steps.Steps.i_click_on_login_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1804265300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I verify user login successfully",
+            "match": {
+              "location": "com.steps.Steps.i_verify_user_login_successfully()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 103120600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "Verify all menus option",
+            "match": {
+              "location": "com.steps.Steps.verify_all_menus_option(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Header"
+                ]
+              },
+              {
+                "cells": [
+                  "Admin"
+                ]
+              },
+              {
+                "cells": [
+                  "PIM"
+                ]
+              },
+              {
+                "cells": [
+                  "Leave"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Orange Hrl application login",
+    "description": "",
+    "id": "orange-hrl-application-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Selenium.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1268900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I am common for all scenario",
+            "match": {
+              "location": "com.steps.StepsDef.i_am_common_for_all_scenario()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-05T19:21:50.912Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify addition of two numbers",
+        "description": "",
+        "id": "title-of-your-feature;verify-addition-of-two-numbers",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1277800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 994300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "I have two numbers 10 and 20",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 19
+                },
+                {
+                  "val": "20",
+                  "offset": 26
+                }
+              ],
+              "location": "com.steps.StepsDef.i_have_two_numbers_and(java.lang.Integer,java.lang.Integer)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "I added both numbers",
+            "match": {
+              "location": "com.steps.StepsDef.i_added_both_numbers()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 674800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "I verify result is 30",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30",
+                  "offset": 19
+                }
+              ],
+              "location": "com.steps.StepsDef.i_verify_result_is(java.lang.Integer)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 501200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I am common for all scenario",
+            "match": {
+              "location": "com.steps.StepsDef.i_am_common_for_all_scenario()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-05T19:21:50.933Z",
+        "before": [
+          {
+            "result": {
+              "duration": 500700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Verify addition of two numbers",
+        "description": "",
+        "id": "title-of-your-feature;verify-addition-of-two-numbers;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 507100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "I have two numbers 10 and 20",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 19
+                },
+                {
+                  "val": "20",
+                  "offset": 26
+                }
+              ],
+              "location": "com.steps.StepsDef.i_have_two_numbers_and(java.lang.Integer,java.lang.Integer)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "I added both numbers",
+            "match": {
+              "location": "com.steps.StepsDef.i_added_both_numbers()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "I verify result is 30",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30",
+                  "offset": 19
+                }
+              ],
+              "location": "com.steps.StepsDef.i_verify_result_is(java.lang.Integer)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I am common for all scenario",
+            "match": {
+              "location": "com.steps.StepsDef.i_am_common_for_all_scenario()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-05T19:21:50.942Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Verify addition of two numbers",
+        "description": "",
+        "id": "title-of-your-feature;verify-addition-of-two-numbers;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 503500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1860800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "I have two numbers 24 and 15",
+            "match": {
+              "arguments": [
+                {
+                  "val": "24",
+                  "offset": 19
+                },
+                {
+                  "val": "15",
+                  "offset": 26
+                }
+              ],
+              "location": "com.steps.StepsDef.i_have_two_numbers_and(java.lang.Integer,java.lang.Integer)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "I added both numbers",
+            "match": {
+              "location": "com.steps.StepsDef.i_added_both_numbers()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1020500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [29] but found [39]\r\n\tat org.testng.Assert.fail(Assert.java:110)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1413)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:149)\r\n\tat org.testng.Assert.assertEquals(Assert.java:131)\r\n\tat org.testng.Assert.assertEquals(Assert.java:1294)\r\n\tat com.steps.StepsDef.i_verify_result_is(StepsDef.java:28)\r\n\tat ✽.I verify result is 29(file:///C:/Users/admin/eclipse-workspace1/Sep2022/src/test/resources/features/myscenario.feature:19)\r\n",
+              "duration": 39737700,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "I verify result is 29",
+            "match": {
+              "arguments": [
+                {
+                  "val": "29",
+                  "offset": 19
+                }
+              ],
+              "location": "com.steps.StepsDef.i_verify_result_is(java.lang.Integer)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1221600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I am common for all scenario",
+            "match": {
+              "location": "com.steps.StepsDef.i_am_common_for_all_scenario()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-05T19:21:51.008Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Verify addition of two numbers",
+        "description": "",
+        "id": "title-of-your-feature;verify-addition-of-two-numbers;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 147100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "I have two numbers 12 and 13",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 19
+                },
+                {
+                  "val": "13",
+                  "offset": 26
+                }
+              ],
+              "location": "com.steps.StepsDef.i_have_two_numbers_and(java.lang.Integer,java.lang.Integer)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "I added both numbers",
+            "match": {
+              "location": "com.steps.StepsDef.i_added_both_numbers()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 621800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "I verify result is 25",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25",
+                  "offset": 19
+                }
+              ],
+              "location": "com.steps.StepsDef.i_verify_result_is(java.lang.Integer)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I am common for all scenario",
+            "match": {
+              "location": "com.steps.StepsDef.i_am_common_for_all_scenario()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-05T19:21:51.016Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Verify addition of two numbers",
+        "description": "",
+        "id": "title-of-your-feature;verify-addition-of-two-numbers;;5",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "I have two numbers 1 and 15",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 19
+                },
+                {
+                  "val": "15",
+                  "offset": 25
+                }
+              ],
+              "location": "com.steps.StepsDef.i_have_two_numbers_and(java.lang.Integer,java.lang.Integer)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "I added both numbers",
+            "match": {
+              "location": "com.steps.StepsDef.i_added_both_numbers()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1002200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "I verify result is 16",
+            "match": {
+              "arguments": [
+                {
+                  "val": "16",
+                  "offset": 19
+                }
+              ],
+              "location": "com.steps.StepsDef.i_verify_result_is(java.lang.Integer)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I am common for all scenario",
+            "match": {
+              "location": "com.steps.StepsDef.i_am_common_for_all_scenario()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-05T19:21:51.024Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Verify addition of two numbers",
+        "description": "",
+        "id": "title-of-your-feature;verify-addition-of-two-numbers;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 806600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "I have two numbers 16 and 14",
+            "match": {
+              "arguments": [
+                {
+                  "val": "16",
+                  "offset": 19
+                },
+                {
+                  "val": "14",
+                  "offset": 26
+                }
+              ],
+              "location": "com.steps.StepsDef.i_have_two_numbers_and(java.lang.Integer,java.lang.Integer)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "I added both numbers",
+            "match": {
+              "location": "com.steps.StepsDef.i_added_both_numbers()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "I verify result is 30",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30",
+                  "offset": 19
+                }
+              ],
+              "location": "com.steps.StepsDef.i_verify_result_is(java.lang.Integer)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 366900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I am common for all scenario",
+            "match": {
+              "location": "com.steps.StepsDef.i_am_common_for_all_scenario()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-05T19:21:51.041Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Verify addition of two numbers",
+        "description": "",
+        "id": "title-of-your-feature;verify-addition-of-two-numbers;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 824600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 498100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "I have two numbers 30 and 20",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30",
+                  "offset": 19
+                },
+                {
+                  "val": "20",
+                  "offset": 26
+                }
+              ],
+              "location": "com.steps.StepsDef.i_have_two_numbers_and(java.lang.Integer,java.lang.Integer)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 301800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 499400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 498600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "I added both numbers",
+            "match": {
+              "location": "com.steps.StepsDef.i_added_both_numbers()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 499600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupStep()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "I verify result is 50",
+            "match": {
+              "arguments": [
+                {
+                  "val": "50",
+                  "offset": 19
+                }
+              ],
+              "location": "com.steps.StepsDef.i_verify_result_is(java.lang.Integer)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.setupSetp()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/myscenario.feature",
+    "tags": [
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

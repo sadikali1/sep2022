@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="MyTestNG">
+
+
+	<test name="Chrome">	
+
+	<!-- 	<packages>
+			<package name="com.test.jcpenny" />
+		</packages>	-->
+
+		<classes>
+			<class name="com.test.jcpenny.CheckOutWithExistingUser" />
+			<class name="com.test.jcpenny.CheckOutWithGuestUser" />
+			<class name="com.test.jcpenny.SearchProduct" />
+			<class name="com.test.jcpenny.CheckOutWithNewUser" />
+		</classes>
+	</test> <!-- Test -->
+
+
+	
+</suite> <!-- Suite -->
+
+
